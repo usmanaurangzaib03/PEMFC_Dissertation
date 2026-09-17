@@ -1,0 +1,10 @@
+pandas>=3.0
+numpy>=2.5
+scipy
+statsmodels
+scikit-learn
+xgboost
+shap
+matplotlib
+jupyterlab
+ipykernel
