@@ -1,0 +1,39 @@
+# PEMFC raw/processed data
+# Raw CSV files are intentionally excluded because the published dataset is large.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated models and large outputs
+models/*.pkl
+models/*.joblib
+models/*.json
+models/*.ubj
+results/*.csv
+results/*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+pemfc_env/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+~$*
